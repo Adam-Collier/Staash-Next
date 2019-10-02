@@ -2,6 +2,7 @@
   "name": "staash-next",
   "version": "0.1.0",
   "private": true,
+  "author": "FCC Manchester <collieradamj@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,5 +16,21 @@
     "puppeteer-core": "^1.20.0",
     "react": "16.10.1",
     "react-dom": "16.10.1"
+  },
+  "keywords": [
+    "next"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.8",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1"
   }
 }
