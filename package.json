@@ -15,7 +15,8 @@
     "next": "9.0.7",
     "puppeteer-core": "^1.20.0",
     "react": "16.10.1",
-    "react-dom": "16.10.1"
+    "react-dom": "16.10.1",
+    "typography": "^0.16.19"
   },
   "keywords": [
     "next"

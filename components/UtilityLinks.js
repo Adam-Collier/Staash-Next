@@ -7,10 +7,12 @@ const UtilityLinks = props => {
       <Link href="/profile">
         <a>profile</a>
       </Link>
-      <a href="https://slack.com/oauth/authorize?client_id=161362817169.304108932706&scope=identity.basic">
-        login
-      </a>
-      <a href="/api/logout">logout</a>
+      <Link href="/api/login">
+        <a>login</a>
+      </Link>
+      <Link href="/api/logout">
+        <a>profile</a>
+      </Link>
 
       <style jsx>{`
         div {
